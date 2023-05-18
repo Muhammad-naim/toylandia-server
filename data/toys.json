@@ -1,0 +1,233 @@
+[
+    {
+      "photoURL": "https://my-test-11.slatic.net/p/85946cbf81a3d760fe5c1bbcf87759d6.jpg",
+      "name": "Iron Man",
+      "sellerName": "Tony Stark",
+      "sellerEmail": "tony.stark@example.com",
+      "category": "Action Figures",
+      "price": 34.99,
+      "rating": 4.8,
+      "availableQuantity": 12,
+      "description": "Description of Iron Man action figure"
+    },
+    {
+        "photoURL": "https://www.gamespot.com/a/uploads/original/1562/15626911/3471104-marvel%20captain%20marvel%206-inch%20legends%20captain%20marvel%20figure%20-%20in%20pkg.jpg",
+        "name": "Captain Marvel",
+        "sellerName": "Seller 1",
+        "sellerEmail": "seller1@example.com",
+        "category": "Action Figures",
+        "price": 19.99,
+        "rating": 4.5,
+        "availableQuantity": 10,
+        "description": "Description of Captain Marvel action figure"
+      },
+      {
+        "photoURL": "https://www.upoharbd.com/images/uploads/Toys/Spiderman.jpg",
+        "name": "Spider-Man",
+        "sellerName": "Seller 2",
+        "sellerEmail": "seller2@example.com",
+        "category": "Action Figures",
+        "price": 29.99,
+        "rating": 4.8,
+        "availableQuantity": 5,
+        "description": "Description of Spider-Man action figure"
+      },
+      {
+        "photoURL": "https://cdn.shopify.com/s/files/1/0036/7188/3889/products/41yZ3QL0bVL_1024x1024.jpg?v=1571026303",
+        "name": "Superman",
+        "sellerName": "Seller 3",
+        "sellerEmail": "seller3@example.com",
+        "category": "Action Figures",
+        "price": 24.99,
+        "rating": 4.3,
+        "availableQuantity": 8,
+        "description": "Unleash the power of Superman with this action figure. From his iconic S-shield to his red cape, this figure captures the strength and heroism of the Man of Steel. Display Superman in heroic poses and let him inspire you to fight for truth and justice!"
+      },
+      {
+        "photoURL": "https://www.kapowtoys.co.uk/uploads/2022/03/batmanbeyond.jpeg",
+        "name": "Batman",
+        "sellerName": "Seller 4",
+        "sellerEmail": "seller4@example.com",
+        "category": "Action Figures",
+        "price": 27.99,
+        "rating": 4.6,
+        "availableQuantity": 12,
+        "description": "Bring justice to Gotham City with this action figure of Batman. Inspired by DC Comics, it features Batman's iconic Batsuit and utility belt. Display him in action-packed poses and protect your collection from the villains of the night!"
+      },
+      {
+        "photoURL": "https://cdn.ecommercedns.uk/files/1/240241/5/13337705/15418-08.jpg",
+        "name": "Wonder Woman",
+        "sellerName": "Seller 5",
+        "sellerEmail": "seller5@example.com",
+        "category": "Action Figures",
+        "price": 21.99,
+        "rating": 4.2,
+        "availableQuantity": 3,
+        "description":"Embrace the power and grace of Wonder Woman with this action figure. Inspired by DC Comics, it features Wonder Woman's iconic costume and her Lasso of Truth. Display her alongside other superheroes and celebrate the strength of Amazonian warriors!"
+      },
+    {
+      "photoURL": "https://cnv.co.il/content/images/thumbs/0007290_marvel-select-doctor-strange-action-figure_560.jpeg",
+      "name": "Doctor Strange",
+      "sellerName": "Seller 1",
+      "sellerEmail": "seller1@example.com",
+      "category": "Action Figures",
+      "price": 29.99,
+      "rating": 4.7,
+      "availableQuantity": 15,
+      "description": "Tap into the mystic arts with this action figure of Doctor Strange. Inspired by Marvel Comics, it features Doctor Strange's iconic Cloak of Levitation and Eye of Agamotto. Display him in mystical poses and protect the world from supernatural threats!"
+    },
+    {
+      "photoURL": "https://i5.walmartimages.ca/images/Large/774/103/6000205774103.jpg",
+      "name": "Hulk",
+      "sellerName": "Seller 1",
+      "sellerEmail": "seller1@example.com",
+      "category": "Action Figures",
+      "price": 34.99,
+      "rating": 4.6,
+      "availableQuantity": 8,
+      "description": "Unleash the power of the Hulk with this incredible action figure. Highly articulated and featuring a massive build, it's perfect for dynamic poses. Add it to your collection and let the green rage take over!"
+    },
+    {
+      "photoURL": "https://cdn.shopify.com/s/files/1/0634/2180/8789/products/Hd7287b8671bc4e7190f2da0e75c45cf1I.jpg?v=1670352432",
+      "name": "Light Yagami",
+      "sellerName": "Seller 1",
+      "sellerEmail": "seller1@example.com",
+      "category": "Action Figures",
+      "price": 24.99,
+      "rating": 4.5,
+      "availableQuantity": 10,
+      "description": "Channel the brilliance and dark charisma of Light Yagami with this action figure. Based on the popular anime character from Death Note, this figure captures Light's distinctive style and intense gaze. Pose him as he meticulously strategizes or displays his god-like persona. A must-have for Death Note fans and collectors alike."
+    },
+    {
+      "photoURL": "https://images-na.ssl-images-amazon.com/images/I/71SHQAe1OeL._AC_UL600_SR600,600_.jpg",
+      "name": "Naruto",
+      "sellerName": "Seller 1",
+      "sellerEmail": "seller1@example.com",
+      "category": "Action Figures",
+      "price": 19.99,
+      "rating": 4.7,
+      "availableQuantity": 15,
+      "description": "Embrace the power of Naruto with this action figure. Inspired by the beloved anime series, it features Naruto's iconic orange outfit and headband. Display him in action-packed poses and relive his incredible ninja adventures!"
+    },
+    {
+      "photoURL": "https://cdn.shopify.com/s/files/1/0611/4030/4091/products/Naruto_Shippuden_S_H_Figuarts_Action_Figure_Sasuke_Uchiha_He_who_bears_all_Hatred_15cm_PREORDER_7_large.jpg?v=1666642276",
+      "name": "Sasuke",
+      "sellerName": "Seller 2",
+      "sellerEmail": "seller2@example.com",
+      "category": "Action Figures",
+      "price": 21.99,
+      "rating": 4.8,
+      "availableQuantity": 12,
+      "description": "Unleash the power of Sasuke with this action figure. From his intense Sharingan eyes to his iconic attire, this figure captures the essence of the legendary Uchiha clan member. Pose Sasuke in fierce combat stances and recreate epic battles from the anime series!"
+    },
+    {
+      "photoURL": "https://static-01.daraz.com.bd/p/6d1cd8f86380bd6aa3549b379c8fe5e4.jpg_720x720.jpg_.webp",
+      "name": "Hinata",
+      "sellerName": "Seller 3",
+      "sellerEmail": "seller3@example.com",
+      "category": "Action Figures",
+      "price": 17.99,
+      "rating": 4.5,
+      "availableQuantity": 8,
+      "description": "Celebrate the gentle strength of Hinata with this action figure. Featuring her signature Hyūga clan attire and determined expression, this figure brings out her loyal and brave character. Display Hinata alongside other Naruto figures and relive the captivating ninja world!"
+    },
+    {
+      "photoURL": "https://media.karousell.com/media/photos/products/2021/1/17/anime_death_note_ryuk_horror_m_1610853205_b1541322",
+      "name": "Ryuk",
+      "sellerName": "Seller 4",
+      "sellerEmail": "seller4@example.com",
+      "category": "Action Figures",
+      "price": 14.99,
+      "rating": 4.3,
+      "availableQuantity": 10,
+      "description": "Embrace the dark allure of Ryuk with this action figure. From his eerie appearance to the intricate details of his Death Note, this figure perfectly captures Ryuk's essence. Add this supernatural figure to your collection and immerse yourself in the realm of Shinigami!"
+    },
+    {
+      "photoURL": "https://images-na.ssl-images-amazon.com/images/I/51EfHX+QaHL._AC_UL600_SR600,600_.jpg",
+      "name": "Eren",
+      "sellerName": "Seller 6",
+      "sellerEmail": "seller6@example.com",
+      "category": "Action Figures",
+      "price": 23.99,
+      "rating": 4.6,
+      "availableQuantity": 10,
+      "description": "Unleash the power of Eren with this action figure. Inspired by the iconic Attack on Titan series, it features Eren's determined expression and Survey Corps uniform. Display him alongside other characters and relive the gripping battles against the Titans!"
+    },
+    {
+      "photoURL": "https://example.com/mikasa.jpg",
+      "name": "Mikasa",
+      "sellerName": "Seller 7",
+      "sellerEmail": "seller7@example.com",
+      "category": "Action Figures",
+      "price": 22.99,
+      "rating": 4.7,
+      "availableQuantity": 15,
+      "description": "Capture the strength and grace of Mikasa with this action figure. Based on the popular Attack on Titan series, it showcases Mikasa's distinct red scarf and deadly combat skills. Pose her in action-packed stances and relive the intense battles against the Titans!"
+    },
+    {
+      "photoURL": "https://lzd-img-global.slatic.net/g/p/799975dd87eecc5f9a50949097cc5404.jpg_720x720q80.jpg_.webp",
+      "name": "Gon",
+      "sellerName": "Seller 8",
+      "sellerEmail": "seller8@example.com",
+      "category": "Action Figures",
+      "price": 18.99,
+      "rating": 4.5,
+      "availableQuantity": 12,
+      "description": "Embark on an adventure with this action figure of Gon. Inspired by the Hunter x Hunter series, it features Gon's energetic pose and signature green outfit. Display him alongside other characters and immerse yourself in the thrilling world of hunters!"
+    },
+    {
+      "photoURL": "https://m.media-amazon.com/images/I/31eU9MDh4KS._AC_SS450_.jpg",
+      "name": "Killua",
+      "sellerName": "Seller 9",
+      "sellerEmail": "seller9@example.com",
+      "category": "Action Figures",
+      "price": 20.99,
+      "rating": 4.8,
+      "availableQuantity": 8,
+      "description": "Unleash the power of Killua with this action figure. Based on the popular Hunter x Hunter series, it showcases Killua's lightning-fast agility and his iconic white and blue outfit. Pose him in dynamic stances and recreate thrilling battles!"
+    },
+    {
+      "photoURL": "https://lzd-img-global.slatic.net/g/p/d28f33a314db1e36599e430cac4f20e1.jpg_720x720q80.jpg_.webp",
+      "name": "Kurapika",
+      "sellerName": "Seller 10",
+      "sellerEmail": "seller10@example.com",
+      "category": "Action Figures",
+      "price": 21.99,
+      "rating": 4.6,
+      "availableQuantity": 10,
+      "description": "Harness the power of Kurapika with this action figure. Inspired by the Hunter x Hunter series, it features Kurapika's determined expression and his Scarlet Eyes. Display him in intense combat poses and relive his quest for vengeance!"
+    },
+    {
+      "photoURL": "https://black-clover.store/wp-content/uploads/2021/06/new-2021-black-clover-asta-figure-713-400x400.jpg",
+      "name": "Asta",
+      "sellerName": "Seller 11",
+      "sellerEmail": "seller11@example.com",
+      "category": "Action Figures",
+      "price": 19.99,
+      "rating": 4.7,
+      "availableQuantity": 15,
+      "description": "Unleash the power of Asta with this action figure. Inspired by the Black Clover series, it features Asta's iconic anti-magic Demon-Slayer Sword and his Black Bull squad attire. Display him in action-packed poses and relive his incredible journey to become the Wizard King!"
+    },
+    {
+      "photoURL": "https://media.karousell.com/media/photos/products/2021/11/23/ready_stock_banpresto_black_cl_1637630817_ef45d0f4_progressive",
+      "name": "Yuno",
+      "sellerName": "Seller 12",
+      "sellerEmail": "seller12@example.com",
+      "category": "Action Figures",
+      "price": 21.99,
+      "rating": 4.8,
+      "availableQuantity": 12,
+      "description": "Harness the magic of Yuno with this action figure. Based on the popular Black Clover series, it showcases Yuno's Wind Magic abilities and his distinguished Golden Dawn squad uniform. Pose Yuno in dynamic stances and recreate epic battles from the anime!"
+    },
+    {
+      "photoURL": "https://ae01.alicdn.com/kf/S6c9922b58d0642ecb25fbeef4694d2da3/1-24-Scale-Genshin-Impact-Figures-Noelle-Unpainted-Resin-Model-Kit-With-Base-Kawaii-Anime-figurines.jpg_Q90.jpg_.webp",
+      "name": "Noelle",
+      "sellerName": "Seller 13",
+      "sellerEmail": "seller13@example.com",
+      "category": "Action Figures",
+      "price": 18.99,
+      "rating": 4.6,
+      "availableQuantity": 10,
+      "description": "Embrace the water magic of Noelle with this action figure. Inspired by the Black Clover series, it features Noelle's elegant Valkyrie Dress and her powerful Sea Dragon's Roar spell. Display Noelle alongside other characters and relive the captivating battles in the Clover Kingdom!"
+    }
+    ]
