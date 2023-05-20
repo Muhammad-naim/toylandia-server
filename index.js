@@ -41,7 +41,20 @@ async function run() {
       res.send(result)
     })
 
-    app.
+    app.post('/search-toy', async (req, res) => {
+      const name = req.body.name;
+      console.log(name);
+    const query = { name: name}
+      const cursor = toysCollection.find(query)
+      const result = await cursor.toArray()
+      console.log(result);
+      if (result.length > 0) {        
+        res.send(result)
+      }
+      else {
+        res.status(200).send([])
+      }
+    })
 
     app.get('/toysphotos', async (req, res) => {
       const cursor = photoURLCollection.find()
