@@ -1,8 +1,7 @@
 const express = require('express');
 const cors = require('cors');
-const toysData = require('./data/toys.json');
 require('dotenv').config()
-const { MongoClient, ServerApiVersion } = require('mongodb');
+const { MongoClient, ServerApiVersion, ObjectId } = require('mongodb');
 const app = express()
 const port = process.env.PORT || 5000;
 
@@ -24,11 +23,32 @@ async function run() {
     // Connect the client to the server	(optional starting in v4.7)
     await client.connect();
     const toysCollection = client.db('toylandiaDB').collection('toys');
+    const photoURLCollection = client.db('toylandiaDB').collection('photoLink')
+
+
     app.get('/toys', async (req, res) => {
       const cursor = toysCollection.find()
       const toys = await cursor.toArray()
       res.send(toys)
     })
+
+    app.get('/toys/:id', async (req, res) => {
+      const id = req.params.id;
+      // console.log(id);
+      const query = { _id: new ObjectId(id) }
+      const result = await toysCollection.findOne(query)
+      console.log(result);
+      res.send(result)
+    })
+
+    app.
+
+    app.get('/toysphotos', async (req, res) => {
+      const cursor = photoURLCollection.find()
+      const toys = await cursor.toArray()
+      res.send(toys)
+    })
+
 
 
 
@@ -45,7 +65,7 @@ async function run() {
 run().catch(console.dir);
 
 app.get('/', (req, res) => {
-  res.send(toysData)
+  res.send('server is running')
 })
 
 app.listen(port, () => {
