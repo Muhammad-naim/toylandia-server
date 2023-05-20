@@ -56,6 +56,13 @@ async function run() {
       }
     })
 
+    app.post('/new-toy', async (req, res) => {
+      const newToy = req.body;
+      console.log(newToy);
+      const result = await toysCollection.insertOne(newToy)
+      res.send(result);
+    })
+
     app.get('/toysphotos', async (req, res) => {
       const cursor = photoURLCollection.find()
       const toys = await cursor.toArray()
