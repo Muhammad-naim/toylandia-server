@@ -41,6 +41,22 @@ async function run() {
       res.send(result)
     })
 
+    app.get('/user-toys', async (req, res) => {
+      let query = {}
+      if (req.query?.email) {
+        query = { sellerEmail : req.query.email}
+      }
+      const result = await toysCollection.find(query).toArray()
+      console.log(result);
+      res.send(result)
+    })
+
+    app.get('/toysphotos', async (req, res) => {
+      const cursor = photoURLCollection.find()
+      const toys = await cursor.toArray()
+      res.send(toys)
+    })
+
     app.post('/search-toy', async (req, res) => {
       const name = req.body.name;
       console.log(name);
@@ -63,16 +79,28 @@ async function run() {
       res.send(result);
     })
 
-    app.get('/toysphotos', async (req, res) => {
-      const cursor = photoURLCollection.find()
-      const toys = await cursor.toArray()
-      res.send(toys)
+    app.patch('/update-toy/:id', async (req, res) => {
+      const id = req.params.id;
+      const updatedToy = req.body;
+      const updateDoc = {
+        $set: {
+          price: updatedToy.price, availableQuantity: updatedToy.availableQuantity, description: updatedToy.description
+        },
+      };
+      const filter = { _id: new ObjectId(id) }
+      const result = await toysCollection.updateOne(filter, updateDoc)
+      console.log(result);
+      res.send(result)
     })
 
-
-
-
-
+    app.delete('/delete-toy/:id', async (req, res) => {
+      const id = req.params.id;
+      console.log(id);
+      const query = { _id: new ObjectId(id) }
+      const result = await toysCollection.deleteOne(query)
+      console.log(result);
+      res.send(result)
+    })
 
     // Send a ping to confirm a successful connection
     await client.db("admin").command({ ping: 1 });
