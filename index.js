@@ -25,14 +25,18 @@ async function run() {
     const toysCollection = client.db('toylandiaDB').collection('toys');
     const photoURLCollection = client.db('toylandiaDB').collection('photoLink')
 
+    app.get('/all-toys', async (req, res) => {
+      const cursor = toysCollection.find()
+      const toys = await cursor.toArray()
+      res.send(toys)
+    })
+
     app.get('/toys', async (req, res) => {
-      console.log(req.query);
       const page = parseInt(req.query.page) || 0;
       const limit = parseInt(req.query.limit) || 20;
       const skip = page * limit;
       const cursor = toysCollection.find().skip(skip).limit(limit)
       const toys = await cursor.toArray()
-      console.log(toys.length);
       res.send(toys)
     })
 
