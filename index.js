@@ -21,12 +21,25 @@ const client = new MongoClient(uri, {
 async function run() {
   try {
     // Connect the client to the server	(optional starting in v4.7)
-    await client.connect();
+    // await client.connect();
     const toysCollection = client.db('toylandiaDB').collection('toys');
     const photoURLCollection = client.db('toylandiaDB').collection('photoLink')
+    const feedbackCollection = client.db('toylandiaDB').collection('feedback')
+    const sponsorCollection = client.db('toylandiaDB').collection('sponsors')
+
 
     app.get('/all-toys', async (req, res) => {
       const cursor = toysCollection.find()
+      const toys = await cursor.toArray()
+      res.send(toys)
+    })
+    app.get('/sponsors', async (req, res) => {
+      const cursor = sponsorCollection.find()
+      const toys = await cursor.toArray()
+      res.send(toys)
+    })
+    app.get('/get-feedback', async (req, res) => {
+      const cursor = feedbackCollection.find()
       const toys = await cursor.toArray()
       res.send(toys)
     })
@@ -67,6 +80,15 @@ async function run() {
       res.send({totalToys: result})
     })
 
+    app.get('/sorted-toys', async (req, res) => {
+      const value = parseInt(req.query.value);
+      const email = req.query.email;
+      const query = {sellerEmail: email}
+      const sortObj = {'price': value}
+      const result = await toysCollection.find(query).sort(sortObj).toArray();
+      res.send(result)
+    })
+
     app.post('/search-toy', async (req, res) => {
       const name = req.body.name;
     const query = { name: name}
@@ -83,6 +105,12 @@ async function run() {
     app.post('/new-toy', async (req, res) => {
       const newToy = req.body;
       const result = await toysCollection.insertOne(newToy)
+      res.send(result);
+    })
+    
+    app.post('/add-feedback', async (req, res) => {
+      const feedbackObj = req.body;
+      const result = await feedbackCollection.insertOne(feedbackObj)
       res.send(result);
     })
 
